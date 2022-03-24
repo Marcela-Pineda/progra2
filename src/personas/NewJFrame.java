@@ -39,6 +39,7 @@ public class NewJFrame extends javax.swing.JFrame {
     }
     public void NewJFrame  () {
         TextPrompt user = new TextPrompt("Ingrese su nombre de usuario",userTxt);
+        TextPrompt pass = new TextPrompt("Ingrese su contraseña",passTxt);
     }
      public void setResizeCityImg () {
         ImageIcon imageIcon = new ImageIcon(new javax.swing.ImageIcon(getClass().getResource("/personas/aseets/tienda.png")).getImage().getScaledInstance(300, 280, Image.SCALE_DEFAULT));
