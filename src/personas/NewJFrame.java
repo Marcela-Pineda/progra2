@@ -98,7 +98,7 @@ public class NewJFrame extends javax.swing.JFrame {
         logoname.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         logoname.setText("UES FMO");
         logoname.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        bg.add(logoname, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 30, 250, 180));
+        bg.add(logoname, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, 300, 200));
 
         header.setBackground(new java.awt.Color(255, 255, 255));
         header.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
